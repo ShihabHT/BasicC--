@@ -153,6 +153,10 @@ you have to do it manually if it requires
     cout<<*&day<<endl; //making variable pointer then dereference
     cout<<&pDay<<endl; //gives address of the pointer variable
 
+    int i1 = 10, j1 = 20, k1 = 30;
+    cout<< i1++ + ++i1 + ++i1 - j1++ - ++j1 + ++k1 + k1++ <<endl; //Explain the output to yourself
+    cout<< i1 << "-" << j1 << "-" << k1 <<endl;
+
     return 0;
 
 
