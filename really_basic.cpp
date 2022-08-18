@@ -4,6 +4,8 @@
 using namespace std;
 
 int main(){
+    cout<<"Running the program..."<<endl;
+    // system("cls"); //This command clears the console
     string name = "Shihab";
 
     cout << "Hello world! "; //without new line
