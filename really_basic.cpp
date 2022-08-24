@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <conio.h>
 
 using namespace std;
 
@@ -52,6 +53,10 @@ int main(){
     cout << "Enter your age : ";
     age = 22; //cin >> age;
     cout << "you are " << age << " years old" << endl;
+    // getting character input(takes only one input and immediately executes next line)
+    char ch;
+    // ch = getche(); //echos the character
+    ch = 'a';// ch = getch(); //doesn't echo the character
 
     string sen;
     cout << "Enter a sentence : ";
