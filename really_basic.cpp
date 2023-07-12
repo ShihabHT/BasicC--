@@ -35,20 +35,20 @@ int main(){
     int b = 3;
     cout << (a+b-a*b/b)% 2 << endl;
     a+=5;
-    cout << a << endl;
+    cout << "a = " << a << endl;
     double d = 4.5;
-    cout << b + d << endl;
-    cout << 10/3 << endl; //Note : operation between two integer gives integer
-    cout << 10/3.0 << endl; //At least one of the has to be decimal number
+    cout << "b+d = " << b + d << endl;
+    cout << "10/3 = " << 10/3 << endl; //Note : operation between two integer gives integer
+    cout << "10/3.0 = " << 10/3.0 << endl; //At least one of the has to be decimal number
     cout << pow(10, 3) << endl;
     cout << sqrt(36) << endl;
-    cout << round(4.6) << endl;
-    cout << ceil(4.6) << endl;
-    cout << floor(4.6) << endl;
+    cout <<"round(4.666) = " << round(4.6) << endl;
+    cout << "ceil(4.6) = " << ceil(4.6) << endl;
+    cout <<"floor(4.6) = "<< floor(4.6) << endl;
     cout << fmax(4, 43) << " " << fmin(5,74) << endl;
 
     // Getting user input
-    cout << "User Input Stuff" << endl;
+    cout << "\n\n....User Input Stuffs...." << endl;
     int age;
     cout << "Enter your age : ";
     age = 22; //cin >> age;
@@ -91,7 +91,7 @@ you have to do it manually if it requires
     }
 
     //Switch statement
-    int dayNum = 3;
+    int dayNum = 2;
     switch(dayNum){
     case 1:
         cout<<"Friday"<<endl;
@@ -131,7 +131,7 @@ you have to do it manually if it requires
     int k;
     char c;
     cout<<"Amount of space an integer takes : "<<sizeof(k)<<endl;
-    cout<<"Amount of space an integer takes : "<<sizeof(c)<<endl;
+    cout<<"Amount of space a character takes : "<<sizeof(c)<<endl;
 
     //For loop
     int arr[] = {4,54,2,45,54,7,4,4,3,6,67};
