@@ -11,6 +11,8 @@ int main(){
   - unordered set radomized values
   - unordered set is inplemented using hash tables
   - all operations on unordered set takes constant time O(1) on average, worst cast O(n)
+
+  video link which has the pdf or required materials https://www.youtube.com/watch?v=EMvLygYr6Gg
 */
 
     unordered_set<int> s;
